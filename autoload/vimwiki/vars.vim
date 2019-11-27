@@ -158,6 +158,7 @@ function! s:read_global_settings_from_user()
         \     'list', 'custom', ':quick', 'expr:quick', 'syntax:quick', 'list:quick',
         \     'custom:quick']},
         \ 'global_ext': {'type': type(0), 'default': 1, 'min': 0, 'max': 1},
+        \ 'enable_local_map': {'type': type(0), 'default': 1, 'min': 0, 'max': 1},
         \ 'hl_cb_checked': {'type': type(0), 'default': 0, 'min': 0, 'max': 2},
         \ 'hl_headers': {'type': type(0), 'default': 0, 'min': 0, 'max': 1},
         \ 'html_header_numbering': {'type': type(0), 'default': 0, 'min': 0, 'max': 6},
